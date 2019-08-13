@@ -1,0 +1,13 @@
+server: 
+  port: 9001
+spring: 
+  application:  
+    name: MoLi-[path_3] #指定服务名
+  datasource:  
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://rm-wz917j29xd018c85gco.mysql.rds.aliyuncs.com:3306/2048db?useUnicode=true&amp;characterEncoding=UTF8
+    username: root
+    password: Qq123456
+  jpa: 
+    database: MySQL
+    show-sql: true
